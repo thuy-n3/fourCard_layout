@@ -12,13 +12,32 @@ body{
 .cardsContainer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.left{
+    align-self: center;
+}
+
+.center{
+    align-self: center;
+}
+
+.right{
+    align-self: center;
 }
 
 .card{
     border: 5px solid gray;
     padding: 2%;
-    flex: 1;
     margin: 2%;
+   flex: 1;
+   justify-self: space-between;
+
+}
+
+img.cardImg{
+    border: solid 3px blue;
+    
    
 }
