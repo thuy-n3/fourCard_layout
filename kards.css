@@ -13,6 +13,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+  
 }
 
 .left{
@@ -31,13 +32,16 @@ body{
     border: 5px solid gray;
     padding: 2%;
     margin: 2%;
-   flex: 1;
-   justify-self: space-between;
+  
+   display: flex;
+   flex-direction: column;
+   border-radius: 5px;
+} 
 
-}
-
-img.cardImg{
-    border: solid 3px blue;
-    
+.cardImg{
+    /* border: solid 3px blue; */
+    object-fit: contain;
+    align-self: flex-end;
    
 }
+
