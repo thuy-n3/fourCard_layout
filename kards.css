@@ -71,6 +71,10 @@ body{
    border-radius: 5px;
    width: 300px;
    /* box-shadow:3px hsl(234, 12%, 34%); */
+
+   /* box-shadow: 12px 12px 2px 1px hsl(0, 0%, 98%); */
+
+   box-shadow: 5px 2px 23px -5px hsl(234, 12%, 34%);
 }
 
 .supervisor{
