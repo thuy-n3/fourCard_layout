@@ -19,7 +19,7 @@ body{
 .title{
     text-align: center;
     margin: 0;
-    font-size: 28px;
+    font-size: 35px;
 }
 
 .t1{
@@ -63,18 +63,17 @@ body{
 }
 
 .card{
-    border: 1px solid hsl(229, 6%, 66%);
+    border: 0.5px solid hsl(228, 17%, 88%);
     padding: 4%;
     margin: 2;
    display: flex;
    flex-direction: column;
    border-radius: 5px;
    width: 300px;
-   /* box-shadow:3px hsl(234, 12%, 34%); */
+/* 
+   box-shadow: 5px 2px 23px -5px hsl(234, 12%, 34%); */
 
-   /* box-shadow: 12px 12px 2px 1px hsl(0, 0%, 98%); */
-
-   box-shadow: 5px 2px 23px -5px hsl(234, 12%, 34%);
+   box-shadow: 5px 2px 23px -5px hsl(229, 6%, 66%);
 }
 
 .supervisor{
